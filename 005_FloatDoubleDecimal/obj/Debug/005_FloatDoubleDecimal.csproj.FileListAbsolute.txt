@@ -1,0 +1,6 @@
+E:\_ITDVN\005_FloatDoubleDecimal\bin\Debug\005_FloatDoubleDecimal.exe.config
+E:\_ITDVN\005_FloatDoubleDecimal\bin\Debug\005_FloatDoubleDecimal.exe
+E:\_ITDVN\005_FloatDoubleDecimal\bin\Debug\005_FloatDoubleDecimal.pdb
+E:\_ITDVN\005_FloatDoubleDecimal\obj\Debug\005_FloatDoubleDecimal.csproj.CoreCompileInputs.cache
+E:\_ITDVN\005_FloatDoubleDecimal\obj\Debug\005_FloatDoubleDecimal.exe
+E:\_ITDVN\005_FloatDoubleDecimal\obj\Debug\005_FloatDoubleDecimal.pdb
