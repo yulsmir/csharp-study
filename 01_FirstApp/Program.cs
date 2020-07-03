@@ -10,6 +10,9 @@ namespace _01_FirstApp
     {
         static void Main(string[] args)
         {
+            Console.Write("Hello World!");
+            Console.ReadKey();
         }
     }
 }
+ 

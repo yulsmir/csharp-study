@@ -1,0 +1,7 @@
+E:\_ITDVN\01_FirstApp\bin\Debug\01_FirstApp.exe.config
+E:\_ITDVN\01_FirstApp\bin\Debug\01_FirstApp.exe
+E:\_ITDVN\01_FirstApp\bin\Debug\01_FirstApp.pdb
+E:\_ITDVN\01_FirstApp\obj\Debug\01_FirstApp.csprojAssemblyReference.cache
+E:\_ITDVN\01_FirstApp\obj\Debug\01_FirstApp.csproj.CoreCompileInputs.cache
+E:\_ITDVN\01_FirstApp\obj\Debug\01_FirstApp.exe
+E:\_ITDVN\01_FirstApp\obj\Debug\01_FirstApp.pdb
