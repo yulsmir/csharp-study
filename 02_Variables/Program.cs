@@ -11,6 +11,10 @@ namespace _02_Variables
         static void Main(string[] args)
         {
             byte a = 2;
+            Byte b = 2;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.ReadKey();  
         }
     }
 }
