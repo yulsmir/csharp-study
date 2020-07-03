@@ -1,0 +1,7 @@
+E:\_ITDVN\02_Variables\bin\Debug\02_Variables.exe.config
+E:\_ITDVN\02_Variables\bin\Debug\02_Variables.exe
+E:\_ITDVN\02_Variables\bin\Debug\02_Variables.pdb
+E:\_ITDVN\02_Variables\obj\Debug\02_Variables.csprojAssemblyReference.cache
+E:\_ITDVN\02_Variables\obj\Debug\02_Variables.csproj.CoreCompileInputs.cache
+E:\_ITDVN\02_Variables\obj\Debug\02_Variables.exe
+E:\_ITDVN\02_Variables\obj\Debug\02_Variables.pdb
