@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _02_Variables
+namespace _002_Variables
 {
     class Program
     {
@@ -14,7 +14,7 @@ namespace _02_Variables
             Byte b = 2;
             Console.WriteLine(a);
             Console.WriteLine(b);
-            Console.ReadKey();  
+            Console.ReadKey();
         }
     }
 }
