@@ -1,0 +1,7 @@
+E:\_ITDVN\008_DataTypes\007_Assignment\bin\Debug\007_Assignment.exe.config
+E:\_ITDVN\008_DataTypes\007_Assignment\bin\Debug\007_Assignment.exe
+E:\_ITDVN\008_DataTypes\007_Assignment\bin\Debug\007_Assignment.pdb
+E:\_ITDVN\008_DataTypes\007_Assignment\obj\Debug\007_Assignment.csprojAssemblyReference.cache
+E:\_ITDVN\008_DataTypes\007_Assignment\obj\Debug\007_Assignment.csproj.CoreCompileInputs.cache
+E:\_ITDVN\008_DataTypes\007_Assignment\obj\Debug\007_Assignment.exe
+E:\_ITDVN\008_DataTypes\007_Assignment\obj\Debug\007_Assignment.pdb
