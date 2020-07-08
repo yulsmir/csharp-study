@@ -1,0 +1,7 @@
+E:\_ITDVN\008_DataTypes\001_Casting\bin\Debug\001_Casting.exe.config
+E:\_ITDVN\008_DataTypes\001_Casting\bin\Debug\001_Casting.exe
+E:\_ITDVN\008_DataTypes\001_Casting\bin\Debug\001_Casting.pdb
+E:\_ITDVN\008_DataTypes\001_Casting\obj\Debug\001_Casting.csprojAssemblyReference.cache
+E:\_ITDVN\008_DataTypes\001_Casting\obj\Debug\001_Casting.csproj.CoreCompileInputs.cache
+E:\_ITDVN\008_DataTypes\001_Casting\obj\Debug\001_Casting.exe
+E:\_ITDVN\008_DataTypes\001_Casting\obj\Debug\001_Casting.pdb
