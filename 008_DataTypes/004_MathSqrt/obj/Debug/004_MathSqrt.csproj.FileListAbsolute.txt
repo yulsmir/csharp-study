@@ -1,0 +1,6 @@
+E:\_ITDVN\008_DataTypes\004_MathSqrt\bin\Debug\004_MathSqrt.exe.config
+E:\_ITDVN\008_DataTypes\004_MathSqrt\bin\Debug\004_MathSqrt.exe
+E:\_ITDVN\008_DataTypes\004_MathSqrt\bin\Debug\004_MathSqrt.pdb
+E:\_ITDVN\008_DataTypes\004_MathSqrt\obj\Debug\004_MathSqrt.csproj.CoreCompileInputs.cache
+E:\_ITDVN\008_DataTypes\004_MathSqrt\obj\Debug\004_MathSqrt.exe
+E:\_ITDVN\008_DataTypes\004_MathSqrt\obj\Debug\004_MathSqrt.pdb
