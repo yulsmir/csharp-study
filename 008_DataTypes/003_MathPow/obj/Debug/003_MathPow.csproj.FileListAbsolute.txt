@@ -1,6 +1,0 @@
-E:\_ITDVN\008_DataTypes\003_MathPow\bin\Debug\003_MathPow.exe.config
-E:\_ITDVN\008_DataTypes\003_MathPow\bin\Debug\003_MathPow.exe
-E:\_ITDVN\008_DataTypes\003_MathPow\bin\Debug\003_MathPow.pdb
-E:\_ITDVN\008_DataTypes\003_MathPow\obj\Debug\003_MathPow.csproj.CoreCompileInputs.cache
-E:\_ITDVN\008_DataTypes\003_MathPow\obj\Debug\003_MathPow.exe
-E:\_ITDVN\008_DataTypes\003_MathPow\obj\Debug\003_MathPow.pdb

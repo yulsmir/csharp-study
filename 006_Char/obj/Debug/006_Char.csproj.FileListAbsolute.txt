@@ -1,6 +1,0 @@
-E:\_ITDVN\006_Char\bin\Debug\006_Char.exe.config
-E:\_ITDVN\006_Char\bin\Debug\006_Char.exe
-E:\_ITDVN\006_Char\bin\Debug\006_Char.pdb
-E:\_ITDVN\006_Char\obj\Debug\006_Char.csproj.CoreCompileInputs.cache
-E:\_ITDVN\006_Char\obj\Debug\006_Char.exe
-E:\_ITDVN\006_Char\obj\Debug\006_Char.pdb

@@ -1,7 +1,0 @@
-E:\_ITDVN\004_DefaultValues\obj\Debug\004_DefaultValues.csprojAssemblyReference.cache
-E:\_ITDVN\004_DefaultValues\obj\Debug\004_DefaultValues.csproj.CoreCompileInputs.cache
-E:\_ITDVN\004_DefaultValues\bin\Debug\004_DefaultValues.exe.config
-E:\_ITDVN\004_DefaultValues\bin\Debug\004_DefaultValues.exe
-E:\_ITDVN\004_DefaultValues\bin\Debug\004_DefaultValues.pdb
-E:\_ITDVN\004_DefaultValues\obj\Debug\004_DefaultValues.exe
-E:\_ITDVN\004_DefaultValues\obj\Debug\004_DefaultValues.pdb

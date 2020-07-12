@@ -1,7 +1,0 @@
-E:\_ITDVN\008_DataTypes\008_LocalVariables\bin\Debug\008_LocalVariables.exe.config
-E:\_ITDVN\008_DataTypes\008_LocalVariables\bin\Debug\008_LocalVariables.exe
-E:\_ITDVN\008_DataTypes\008_LocalVariables\bin\Debug\008_LocalVariables.pdb
-E:\_ITDVN\008_DataTypes\008_LocalVariables\obj\Debug\008_LocalVariables.csprojAssemblyReference.cache
-E:\_ITDVN\008_DataTypes\008_LocalVariables\obj\Debug\008_LocalVariables.csproj.CoreCompileInputs.cache
-E:\_ITDVN\008_DataTypes\008_LocalVariables\obj\Debug\008_LocalVariables.exe
-E:\_ITDVN\008_DataTypes\008_LocalVariables\obj\Debug\008_LocalVariables.pdb

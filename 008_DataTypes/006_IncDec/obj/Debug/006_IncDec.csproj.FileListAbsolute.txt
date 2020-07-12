@@ -1,7 +1,0 @@
-E:\_ITDVN\008_DataTypes\006_IncDec\bin\Debug\006_IncDec.exe.config
-E:\_ITDVN\008_DataTypes\006_IncDec\bin\Debug\006_IncDec.exe
-E:\_ITDVN\008_DataTypes\006_IncDec\bin\Debug\006_IncDec.pdb
-E:\_ITDVN\008_DataTypes\006_IncDec\obj\Debug\006_IncDec.csprojAssemblyReference.cache
-E:\_ITDVN\008_DataTypes\006_IncDec\obj\Debug\006_IncDec.csproj.CoreCompileInputs.cache
-E:\_ITDVN\008_DataTypes\006_IncDec\obj\Debug\006_IncDec.exe
-E:\_ITDVN\008_DataTypes\006_IncDec\obj\Debug\006_IncDec.pdb

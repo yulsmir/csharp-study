@@ -1,6 +1,0 @@
-E:\_ITDVN\008_DataTypes\005_Comparison\bin\Debug\005_Comparison.exe.config
-E:\_ITDVN\008_DataTypes\005_Comparison\bin\Debug\005_Comparison.exe
-E:\_ITDVN\008_DataTypes\005_Comparison\bin\Debug\005_Comparison.pdb
-E:\_ITDVN\008_DataTypes\005_Comparison\obj\Debug\005_Comparison.csproj.CoreCompileInputs.cache
-E:\_ITDVN\008_DataTypes\005_Comparison\obj\Debug\005_Comparison.exe
-E:\_ITDVN\008_DataTypes\005_Comparison\obj\Debug\005_Comparison.pdb

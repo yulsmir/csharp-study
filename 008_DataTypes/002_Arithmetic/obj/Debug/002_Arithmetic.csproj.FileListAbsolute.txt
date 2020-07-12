@@ -1,7 +1,0 @@
-E:\_ITDVN\008_DataTypes\002_Arithmetic\bin\Debug\002_Arithmetic.exe.config
-E:\_ITDVN\008_DataTypes\002_Arithmetic\bin\Debug\002_Arithmetic.exe
-E:\_ITDVN\008_DataTypes\002_Arithmetic\bin\Debug\002_Arithmetic.pdb
-E:\_ITDVN\008_DataTypes\002_Arithmetic\obj\Debug\002_Arithmetic.csprojAssemblyReference.cache
-E:\_ITDVN\008_DataTypes\002_Arithmetic\obj\Debug\002_Arithmetic.csproj.CoreCompileInputs.cache
-E:\_ITDVN\008_DataTypes\002_Arithmetic\obj\Debug\002_Arithmetic.exe
-E:\_ITDVN\008_DataTypes\002_Arithmetic\obj\Debug\002_Arithmetic.pdb
