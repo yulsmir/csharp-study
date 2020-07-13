@@ -29,10 +29,12 @@ namespace _004_Authentication
                 {
                     Console.WriteLine("You entered wrong password.");
                 }
-
+            }
+            else
+            {
+                Console.WriteLine("No user with this login");
             }
             Console.ReadKey();
-
         }
     }
 }
