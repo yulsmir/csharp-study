@@ -10,7 +10,7 @@ namespace _014_CoffeeMaker
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome! We have the best coffee in the world!");
+            Console.WriteLine("Welcome! We have the best coffee!");
             Console.WriteLine("Coffee cup sizes: 1 = small, 2 = medium, 3 = large");
             Console.WriteLine("Please, select your cup size: ");
 
@@ -25,10 +25,10 @@ namespace _014_CoffeeMaker
                     break;
                 case "2":
                     cost += 50;
-                    break;
+                    goto case "1";
                 case "3":
                     cost += 75;
-                    break;
+                    goto case "1";
 
                 default:
                     Console.WriteLine("Incorrect choice. Please, choose 1, 2 or 3.");
