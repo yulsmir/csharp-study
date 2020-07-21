@@ -19,7 +19,6 @@ namespace _010_Ternary_cost_
 
             Console.WriteLine("Total cost: {0} usd", cost);
             Console.ReadKey();
-
         }
     }
 }
