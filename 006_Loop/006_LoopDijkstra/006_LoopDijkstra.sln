@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_LoopDijkstra", "006_LoopDijkstra.csproj", "{39F408E7-9EEA-4790-BC0E-3C7DF9096BDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39F408E7-9EEA-4790-BC0E-3C7DF9096BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F408E7-9EEA-4790-BC0E-3C7DF9096BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F408E7-9EEA-4790-BC0E-3C7DF9096BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F408E7-9EEA-4790-BC0E-3C7DF9096BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F255626B-A099-4B3A-AC46-6FC58C72A5D6}
+	EndGlobalSection
+EndGlobal
