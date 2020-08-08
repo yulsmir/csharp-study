@@ -8,6 +8,7 @@ namespace _009_Method
 {
     class Program
     {
+        //out
         static int Method(out int a)
         {
             a = 2;
