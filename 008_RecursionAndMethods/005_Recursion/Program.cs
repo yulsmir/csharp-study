@@ -23,5 +23,6 @@ namespace _005_Recursion
             Console.WriteLine("a = {0}, b = {1}, div = {2}", a, b, Calculate(a, b));
             Console.ReadKey();
         }
+
     }
 }
