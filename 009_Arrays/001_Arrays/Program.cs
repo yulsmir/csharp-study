@@ -24,7 +24,6 @@ namespace _001_Arrays
             Console.WriteLine(array[3]);
             Console.WriteLine(array[4]);
 
-
             Console.ReadKey();
         }
     }
