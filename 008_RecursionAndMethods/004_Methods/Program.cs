@@ -10,6 +10,7 @@ namespace _004_Methods
     {
         static void Recursion(int counter)
         {
+            counter--;
             Console.WriteLine("First part of method Recursion: {0}", counter);
             if (counter != 0)
             {
