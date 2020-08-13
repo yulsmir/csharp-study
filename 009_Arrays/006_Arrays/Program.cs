@@ -15,7 +15,7 @@ namespace _006_Arrays
             {
                 for (int j = 0; j < 3; j++)
                 {
-                    array[i, j] = i * j + 1;
+                    array[i, j] = i * j + 2;
                 }
             }
             for (int i = 0; i < 3; i++)
