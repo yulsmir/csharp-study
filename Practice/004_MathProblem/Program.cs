@@ -12,8 +12,9 @@ namespace _004_MathProblem
         {
             int apples = 8;
             int pears = 5;
+            int bananas = 10;
 
-            int fruitSum = apples + pears;
+            int fruitSum = apples + pears + bananas;
             Console.WriteLine(fruitSum);
 
             Console.ReadKey();
