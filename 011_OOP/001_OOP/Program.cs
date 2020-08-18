@@ -9,12 +9,10 @@ namespace _001_OOP
     class Buterfly
     {
         public string name;
-
         public void Fly()
         {
             for (int i = 0; i < 10; i++)
             {
-
                 Console.WriteLine("Fly!");
             }
         }
@@ -25,6 +23,9 @@ namespace _001_OOP
         {
             Buterfly mahaon = new Buterfly();
             mahaon.name = "Admiral";
+            mahaon.Fly();
+
+            Console.ReadKey();
         }
     }
 }
