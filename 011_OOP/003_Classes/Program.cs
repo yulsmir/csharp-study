@@ -21,7 +21,6 @@ namespace _003_Classes
     }
     class Program
     {
-        
         static void Main()
         {
             MyClass instance = new MyClass();
