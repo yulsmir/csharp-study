@@ -10,8 +10,8 @@ namespace _001_DataTypes
     {
         static void Main()
         {
-            double pi = 3.141592653;
-            double e = 2.7182818284590452;
+            double pi = 3.141592653D;
+            double e = 2.7182818284590452D;
 
             Console.WriteLine(pi);
             Console.WriteLine(e);
