@@ -1,36 +1,45 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace _004_Properties
+namespace Less01_task04
 {
-    class Constants
-    {
-        private double pi = 3.14D;
-        private double e = 2.71D;
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			Class1 inst1 = new Class1(2, 3);
+			Class1 inst2 = new Class1(5, 7);
 
-        public double Pi
-        {
-            set { pi = value; }
-        }
-        public double E
-        {
-            get { return e; }
-        }
-    }
+			Class1 inst3 = new Method(inst1, inst2);
 
-    class Program
-    {
-        static void Main()
-        {
-            Constants constants = new Constants();
-            constants.Pi = 3.14159265D;
-            Console.WriteLine("e = {0}", constants.E);
+			Console.WriteLine("X = {0}; Y = {1}", inst3.X, inst3.Y);
 
-            Console.ReadKey();
-        }
-    }
+			Console.ReadKey();
+		}
+
+		static Class1 Method(Class1 inst1, Class1 inst2)
+		{
+			return new Class1(inst1.X + inst2.X, inst1.Y + inst2.Y);
+		}
+
+		class Class1
+		{
+			int x;
+			int y;
+
+			public int X { set { return x; } }
+			public int Y { get { return y; } }
+
+			public Class1(int z)
+			{
+				x = z;
+				y = z;
+			}
+
+			public Class1(int x, int y)
+			{
+				x = x;
+				this.y = y;
+			}
+		}
+	}
 }
