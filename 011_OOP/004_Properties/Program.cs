@@ -2,44 +2,46 @@
 
 namespace Less01_task04
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
-			Class1 inst1 = new Class1(2, 3);
-			Class1 inst2 = new Class1(5, 7);
+    static Class1 Method(Class1 inst1, Class1 inst2)
+    {
+        return new Class1(inst1.X + inst2.X, inst1.Y + inst2.Y);
+    }
 
-			Class1 inst3 = new Method(inst1, inst2);
+    class Class1
+    {
+        int x;
+        int y;
 
-			Console.WriteLine("X = {0}; Y = {1}", inst3.X, inst3.Y);
+        public int X { set { return x; } }
+        public int Y { get { return y; } }
 
-			Console.ReadKey();
-		}
+        public Class1(int z)
+        {
+            x = z;
+            y = z;
+        }
 
-		static Class1 Method(Class1 inst1, Class1 inst2)
-		{
-			return new Class1(inst1.X + inst2.X, inst1.Y + inst2.Y);
-		}
+        public Class1(int x, int y)
+        {
+            x = x;
+            this.y = y;
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Class1 inst1 = new Class1(2, 3);
+            Class1 inst2 = new Class1(5, 7);
+            Class1 inst3 = new Class1(5, 7);
 
-		class Class1
-		{
-			int x;
-			int y;
+            Class1 inst3 = new Method(inst1, inst2);
 
-			public int X { set { return x; } }
-			public int Y { get { return y; } }
+            Console.WriteLine("X = {0}; Y = {1}", inst3.X, inst3.Y);
 
-			public Class1(int z)
-			{
-				x = z;
-				y = z;
-			}
+            Console.ReadKey();
+        }
 
-			public Class1(int x, int y)
-			{
-				x = x;
-				this.y = y;
-			}
-		}
-	}
+
+    }
 }
