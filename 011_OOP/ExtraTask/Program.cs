@@ -10,8 +10,8 @@ namespace ExtraTask
     {
         class Address
         {
-            public int index, house, apartment;
-            public string country, city, street;
+            /*public int index, house, apartment;
+            public string country, city, street;*/
 
             public string Country { get; set; }
             public string City { get; set; }
