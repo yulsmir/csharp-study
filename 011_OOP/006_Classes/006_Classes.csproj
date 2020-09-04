@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9EF0BC42-81EA-4D37-B731-FDBDBE1F43B1}</ProjectGuid>
+    <ProjectGuid>{271E7C70-D6ED-4B5B-9373-58DB1DF0A7A7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_005_Constructor</RootNamespace>
-    <AssemblyName>005_Constructor</AssemblyName>
+    <RootNamespace>_006_Classes</RootNamespace>
+    <AssemblyName>006_Classes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassPoint.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
