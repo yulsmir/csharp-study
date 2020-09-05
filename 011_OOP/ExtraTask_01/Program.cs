@@ -13,6 +13,7 @@ namespace ExtraTask_01
             public double side1;
             public double side2;
 
+            // add oop
             public Rectangle(double side1, double side2)
             {
                 this.side1 = side1;
