@@ -10,46 +10,50 @@ namespace ExtraTask_01
     {
         class Rectangle
         {
-            public double side1;
-            public double side2;
+            double side1, side2;
 
-            // add oop
-            // refactor code
-            // fix object
             public Rectangle(double side1, double side2)
             {
                 this.side1 = side1;
                 this.side2 = side2;
             }
-            public double AreaCalculator(double side1, double side2)
+            double AreaCalculator()
             {
                 return side1 * side2;
             }
+            public double Area
+            {
+                get
+                {
+                    return this.AreaCalculator();
+                }
+            }
 
-            public double PerimeterCalculator(double side1, double side2)
+            double PerimeterCalculator()
             {
                 return (side1 + side2) * 2;
             }
 
-            public double Area { get; }
-            public double Perimeter { get; }
+            public double Perimeter
+            {
+                get
+                {
+                    return this.PerimeterCalculator();
+                }
+            }
         }
         static void Main()
         {
             
             Console.WriteLine("Enter the value of side 1 of the rectangle: ");
             double side1 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(new string('-', 30));
 
             Console.WriteLine("Enter the value of size 2 of the rectangle: ");
             double side2 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(new string('-',30));
 
             Rectangle rectangle1 = new Rectangle(side1, side2);
-            double Perimeter = rectangle1.PerimeterCalculator(side1, side2);
-            double Area = rectangle1.AreaCalculator(side1, side2);
-            Console.WriteLine("Perimeter: {0}, Area: {1}", Perimeter, Area);
-
+            Console.WriteLine("Perimeter: {0}, Area: {1}", rectangle1.Perimeter, rectangle1.Area);
+            
             Console.ReadKey();
         }
     }
