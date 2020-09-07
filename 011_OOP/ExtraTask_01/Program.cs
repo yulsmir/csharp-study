@@ -15,6 +15,7 @@ namespace ExtraTask_01
 
             // add oop
             // refactor code
+            // fix object
             public Rectangle(double side1, double side2)
             {
                 this.side1 = side1;
