@@ -56,5 +56,3 @@ namespace ExtraTask_01
             
             Console.ReadKey();
         }
-    }
-}
