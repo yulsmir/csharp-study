@@ -8,7 +8,7 @@ namespace Homework_Book
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
         }
     }

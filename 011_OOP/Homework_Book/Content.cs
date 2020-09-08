@@ -16,6 +16,7 @@ namespace Homework_Book
         }
         void Show()
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Author: {0}", content);
         }
     }
