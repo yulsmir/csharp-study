@@ -8,16 +8,16 @@ namespace Homework_Book
 {
     class Content
     {
-        string content;
+        public string text;
 
-        public Content(string content)
+        public Content(string text)
         {
-            this.content = content;
+            this.text = text;
         }
-        void Show()
+        public void Show()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Author: {0}", content);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Book content: {0}", text);
         }
     }
 }

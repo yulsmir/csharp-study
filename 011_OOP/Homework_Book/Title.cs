@@ -8,16 +8,17 @@ namespace Homework_Book
 {
     class Title
     {
-        string title;
+        readonly string title;
 
         public Title(string title)
         {
             this.title = title;
         }
-        void Show()
+        public void Show()
         {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Title: {0}", title);
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.WriteLine("Book title: {0}", title);
         }
     }
 }

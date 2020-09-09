@@ -8,17 +8,6 @@ namespace Homework_Address
 {
     class Program
     {
-        class Address
-        {
-            private string index, country, city, street, house, apartment;
-            
-            public string Index { set; get; }
-            public string Country { set; get; }
-            public string City { set; get; }
-            public string Street { set; get; }
-            public string House { set; get; }
-            public string Apartment { set; get; }
-        }
         static void Main()
         {
             Address address01 = new Address();

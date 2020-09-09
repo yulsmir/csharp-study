@@ -8,16 +8,15 @@ namespace Homework_Book
 {
     class Author
     {
-        string author;
-
-        public Author(string author)
+        readonly string name;
+        public Author(string name)
         {
-            this.author = author;
+            this.name = name;
         }
-        void Show()
+        public void Show()
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Author: {0}", author);
+            Console.WriteLine("Author name: {0}", name);
         }
     }
 }

@@ -8,9 +8,9 @@ namespace Homework_Book
 {
     class Book
     {
-        Title title;
-        Author author;
-        Content content;
+        readonly Title title;
+        readonly Author author;
+        readonly Content content;
 
         public Book(string title, string author, string content)
         {
@@ -21,8 +21,9 @@ namespace Homework_Book
 
         public void Show()
         {
-           //add solution
+            title.Show();
+            author.Show();
+            content.Show();
         }
-
     }
 }

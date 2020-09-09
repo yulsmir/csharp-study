@@ -10,6 +10,11 @@ namespace Homework_Book
     {
         static void Main()
         {
+            Book book01 = new Book("Encyclopedia", "John Johnsson", "Text of description");
+
+            book01.Show();
+
+            Console.ReadKey();
         }
     }
 }
