@@ -8,18 +8,18 @@ namespace Homework_TrianglePerimeter
 {
     class Point
     {
-        int a;
-        int b;
+        int x;
+        int y;
         string name;
 
-        public int A { get; }
-        public int B { get; }
+        public int X { get { return x; } }
+        public int Y { get { return y; } }
         public string Name { get; }
 
-        public Point(int a, int b, string name)
+        public Point(int x, int y, string name)
         {
-            this.a = a;
-            this.b = b;
+            this.x = x;
+            this.y = y;
             this.name = name;
         }
     }
