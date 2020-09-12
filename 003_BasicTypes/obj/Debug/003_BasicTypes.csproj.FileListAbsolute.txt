@@ -1,7 +1,0 @@
-E:\_ITDVN\003_BasicTypes\bin\Debug\003_BasicTypes.exe.config
-E:\_ITDVN\003_BasicTypes\bin\Debug\003_BasicTypes.exe
-E:\_ITDVN\003_BasicTypes\bin\Debug\003_BasicTypes.pdb
-E:\_ITDVN\003_BasicTypes\obj\Debug\003_BasicTypes.csprojAssemblyReference.cache
-E:\_ITDVN\003_BasicTypes\obj\Debug\003_BasicTypes.csproj.CoreCompileInputs.cache
-E:\_ITDVN\003_BasicTypes\obj\Debug\003_BasicTypes.exe
-E:\_ITDVN\003_BasicTypes\obj\Debug\003_BasicTypes.pdb
