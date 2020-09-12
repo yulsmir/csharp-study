@@ -54,14 +54,16 @@ namespace Homework_TrianglePerimeter
             double perimeter = 0;
             for (int i = 0; i < points.Length; i++)
             {
-                perimeter += LengthSide(points[i], points[points.Length - 1]);
-                Console.WriteLine(i);
                 if (i == points.Length - 1)
                 {
-                    perimeter += LengthSide(points[points.Length - 1], points[0]);
+                    perimeter += LengthSide(points[0], points[points.Length - 1]);
+                }
+                else
+                {
+                    perimeter += LengthSide(points[i], points[i + 1]);
                 }
             }
-            Console.WriteLine(perimeter);
+            Console.WriteLine("Perimeter is: {0}", perimeter);
         }
     }
 }
