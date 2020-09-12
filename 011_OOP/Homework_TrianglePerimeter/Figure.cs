@@ -46,8 +46,7 @@ namespace Homework_TrianglePerimeter
         }
         public double LengthSide(Point A, Point B)
         {
-            double result = Math.Sqrt(Math.Pow(B.X - A.X, 2) + Math.Pow(B.Y - A.Y, 2));
-            return result;
+            return Math.Sqrt(Math.Pow(B.X - A.X, 2) + Math.Pow(B.Y - A.Y, 2));
         }
 
         public void PerimeterCalculator()
@@ -55,7 +54,7 @@ namespace Homework_TrianglePerimeter
             double perimeter = 0;
             for (int i = 0; i < points.Length; i++)
             {
-                perimeter += LengthSide(points[i], points[i + 1]);
+                perimeter += LengthSide(points[i], points[points.Length - 1]);
                 Console.WriteLine(i);
                 if (i == points.Length - 1)
                 {
