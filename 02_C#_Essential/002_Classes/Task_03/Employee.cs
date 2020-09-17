@@ -10,13 +10,13 @@ namespace Task_03
     {
         string firstname, lastname, jobtitle;
         double yearsOfExperience;
-        
 
-/*        public string FirstName { get; set; } 
+
+        public string FirstName { get; set; }
         public string LastName { get; set; }
         public string JobTitle { get; set; }
 
-        public double YearsOfExperience { get; set; }*/
+        public double YearsOfExperience { get; set; }
 
         public Employee(string firstname, string lastname, string jobtitle, double yearsOfExperience)
         {
@@ -32,16 +32,18 @@ namespace Task_03
             double hourlyRate = 10D;
             double salary = (hourlyRate * hours) + (yearsOfExperience * 100);
 
-            if (jobtitle == "manager")
+            switch (jobtitle)
             {
-                hourlyRate = 8.0D;
-            }
+                case "manager": hourlyRate = 8.0D;
+                    break;
+                case "developer": hourlyRate = 10.0D;
+                    break;
+                case "cleaner": hourlyRate = 5.0D;
+                    break;
 
-            if (jobtitle == "developer")
-            {
-                hourlyRate = 10.0D;
+                default: hourlyRate = 4.0D;
+                    break;
             }
-            
             return salary;
         }
 
@@ -59,6 +61,7 @@ namespace Task_03
             Console.WriteLine("Job title: {0}", jobtitle);
             Console.WriteLine("Salary: {0} USD", getSalary());
             Console.WriteLine("Taxes: : {0} USD", getTaxes());
+            Console.WriteLine(new string('-', 30));
         }
     }
 }
