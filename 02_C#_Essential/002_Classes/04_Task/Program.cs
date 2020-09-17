@@ -8,8 +8,11 @@ namespace _04_Task
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            Invoice invoice01 = new Invoice(12345, "John", "Rozetka");
+            invoice01.printInvoiceInfo();
+            Console.ReadKey();
         }
     }
 }
