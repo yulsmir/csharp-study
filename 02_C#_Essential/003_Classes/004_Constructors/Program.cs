@@ -1,17 +1,20 @@
 ﻿using System;
-namespace Less03_task03
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _004_Constructors
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            if (new MyClass() is Object)
-            {
-                Console.WriteLine("I'm object!");
-            }
-            else { Console.WriteLine("I’m not object!"); }
+            DerivedClass instance = new DerivedClass(1, 2);
+            Console.WriteLine(instance.baseNumber);
+            Console.WriteLine(instance.derivedField);
+
             Console.ReadKey();
         }
     }
-    class MyClass { }
 }
