@@ -18,7 +18,7 @@ namespace _001_Inheritence
             Console.WriteLine(instance1.publicField);
             Console.WriteLine(instance2.publicField);
 
-            Console.WriteLine(base.x);
+            Console.WriteLine(instance3.x);
             Console.ReadKey();
         }
     }
