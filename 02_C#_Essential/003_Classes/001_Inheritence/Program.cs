@@ -13,9 +13,12 @@ namespace _001_Inheritence
             DerivedClass instance1 = new DerivedClass();
             BaseClass instance2 = new BaseClass();
 
+            BaseClass instance3 = new DerivedClass();
+
             Console.WriteLine(instance1.publicField);
             Console.WriteLine(instance2.publicField);
 
+            Console.WriteLine(base.x);
             Console.ReadKey();
         }
     }

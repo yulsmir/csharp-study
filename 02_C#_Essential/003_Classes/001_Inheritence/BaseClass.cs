@@ -11,5 +11,7 @@ namespace _001_Inheritence
         public string publicField = "BaseClass.publicField";
         private string privateField = "BaseClass.privateField";
         protected string protectedField = "BaseClass.protectedField";
+
+        public int x = 5;
     }
 }
