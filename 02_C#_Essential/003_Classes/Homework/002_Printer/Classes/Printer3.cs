@@ -8,7 +8,7 @@ namespace _002_Printer
     {
         public override void Print(string Value)
         {
-            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+            Console.BackgroundColor = ConsoleColor.DarkGray;
             Console.WriteLine(Value);
         }
     }
