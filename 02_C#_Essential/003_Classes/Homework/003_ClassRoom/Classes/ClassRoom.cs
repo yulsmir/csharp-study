@@ -10,8 +10,13 @@ namespace _003_ClassRoom.Classes
         public string name;
         public ClassRoom(string name, Pupil pupil1, Pupil pupil2, Pupil pupil3, Pupil pupil4)
         {
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("Classroom: {0}", name);
-            Console.WriteLine(new string('-', 30));
+            Console.BackgroundColor = ConsoleColor.Black;
+            pupil1.PrintInfo();
+            pupil2.PrintInfo();
+            pupil3.PrintInfo();
+            pupil4.PrintInfo();
         }
     }
 }

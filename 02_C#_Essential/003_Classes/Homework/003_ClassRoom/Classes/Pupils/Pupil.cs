@@ -7,31 +7,51 @@ namespace _003_ClassRoom.Classes.Pupils
     class Pupil
     {
         public string name;
-        public decimal readScore;
-        public decimal writeScore;
+        public double readScore;
+        public double writeScore;
 
-        public virtual void Study() 
-        {
-            decimal studyScore = Math.Round((readScore + writeScore)/2);
-            Console.Write("Study score is: {0} points", studyScore);
-        }
         public virtual void Read()
         {
-            Console.Write("Read score is: {0} points", 2); ;
+            Console.WriteLine("Read score is: {0} points.", readScore);
         }
         public virtual void Write()
         {
-            Console.Write("Write score is: {0} points", 3);
+            Console.WriteLine("Write score is: {0} points.", writeScore);
         }
+        public virtual void Study() 
+        {
+            double studyScore = Math.Round((readScore + writeScore)/2);
+            Console.WriteLine("Study score is: {0} points", studyScore);
+        }
+       
         public virtual void Relax()
         {
-            Console.Write("Relax score is: {0} points", 4);
+            double relaxScore = (5 - (readScore + writeScore)/2) % 100;
+            Console.WriteLine("Relax score is: {0} %.", relaxScore);
         }
 
+        public Pupil()
+        {
+
+        }
         public Pupil(string name, double readScore, double writeScore)
         {
-            Console.WriteLine("Name: {0}, Read Score: {1}, Write Score: {2}", name, readScore, writeScore);
+            this.name = name;
+            this.readScore = readScore;
+            this.writeScore = writeScore;
         }
 
+        public void PrintInfo()
+        {
+            Console.BackgroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("Name: {0}", name);
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.WriteLine("Read Score: {0}", readScore);
+            Console.WriteLine("Write Score: {0}", writeScore);
+            Study();
+            Relax();
+            Console.WriteLine(new string('-', 30));
+            
+        }
     }
 }
