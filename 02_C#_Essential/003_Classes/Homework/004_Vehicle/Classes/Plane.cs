@@ -6,7 +6,6 @@ namespace _004_Vehicle.Classes
 {
     class Plane : Vehicle
     {
-        public string name;
         public double gpsAltitude;
         public int numOfPassengers;
 
