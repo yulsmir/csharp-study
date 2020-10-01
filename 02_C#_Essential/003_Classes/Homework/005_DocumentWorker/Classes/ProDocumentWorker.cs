@@ -6,8 +6,6 @@ namespace _005_DocumentWorker.Classes
 {
     class ProDocumentWorker : DocumentWorker
     {
-        public new string accessKey = "12345";
-
         public override void EditDocument()
         {
             Console.WriteLine("Document was edited.");

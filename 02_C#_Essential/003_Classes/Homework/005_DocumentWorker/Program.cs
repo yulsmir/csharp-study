@@ -10,20 +10,27 @@ namespace _005_DocumentWorker
             Console.WriteLine("Please, enter the access key: ");
             string accessKey = Console.ReadLine();
 
-            if (accessKey == null)
+            DocumentWorker doc = null;
+
+            if (accessKey == "prof")
             {
-                DocumentWorker worker1 = new DocumentWorker();
+                doc = new ProDocumentWorker();
             }
 
-            else if (accessKey == "12345")
+            else if (accessKey == "expert")
             {
-                ProDocumentWorker worker2 = new ProDocumentWorker();
+                doc = new ExpertDocumentWorker();
             }
 
-            else if (accessKey == "987654")
+            else
             {
-                ExpertDocumentWorker worker3 = new ExpertDocumentWorker();
+                Console.WriteLine("Wrong access key");
+                doc = new DocumentWorker();
             }
+
+            doc.OpenDocument();
+            doc.EditDocument();
+            doc.SaveDocument();
 
             Console.ReadKey();
         }
