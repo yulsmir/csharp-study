@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _01_AbstractionHW.Classes;
+using System;
 
 namespace _01_AbstractionHW
 {
@@ -6,7 +7,28 @@ namespace _01_AbstractionHW
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DOCHandler docFile = new DOCHandler();
+            docFile.Create();
+            docFile.Change();
+            docFile.Open();
+            docFile.Save();
+            Console.WriteLine(new string('-', 20));
+
+            TXTHandler txtFile = new TXTHandler();
+            txtFile.Create();
+            txtFile.Change();
+            txtFile.Open();
+            txtFile.Save();
+            Console.WriteLine(new string('-', 20));
+
+            XMLHandler xmlFile = new XMLHandler();
+            xmlFile.Create();
+            xmlFile.Change();
+            xmlFile.Open();
+            xmlFile.Save();
+            Console.WriteLine(new string('-', 20));
+
+            Console.ReadKey();
         }
     }
 }
