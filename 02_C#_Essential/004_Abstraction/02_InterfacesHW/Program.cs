@@ -2,7 +2,7 @@
 
 namespace _02_InterfacesHW
 {
-    class Program
+     class Program
     {
         interface IPlayable
         {
@@ -11,41 +11,50 @@ namespace _02_InterfacesHW
             void Stop();
         }
 
-        interface IRecordable : IPlayable
+        interface IRecordable
         {
             void Record();
+            void Pause();
+            void Stop();
         }
 
-        class Player : IRecordable
+        class Player : IPlayable, IRecordable
         {
-            public void Play()
+            void IPlayable.Play()
             {
                 Console.WriteLine("Track is playing");
             }
 
-            public void Stop()
+            void IPlayable.Stop()
             {
                 Console.WriteLine("Track is stopped");
             }
 
-            public void Pause()
+            void IPlayable.Pause()
             {
                 Console.WriteLine("Track is paused");
             }
 
-            public void Record()
+
+            void IRecordable.Record()
             {
                 Console.WriteLine("Track is recording");
+            }
+
+            void IRecordable.Pause()
+            {
+                Console.WriteLine("Recording is paused");
+            }
+
+            void IRecordable.Stop()
+            {
+                Console.WriteLine("Recording is stopped");
             }
         }
 
         static void Main(string[] args)
         {
             Player player = new Player();
-            player.Play();
-            player.Record();
-            player.Stop();
-            player.Pause();
 
             Console.ReadKey();
         }
