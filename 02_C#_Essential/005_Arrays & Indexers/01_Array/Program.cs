@@ -17,7 +17,7 @@ namespace _01_Array
             }
 
             Console.WriteLine("Array is [{0}]", string.Join(", ", array));
-
+            Console.WriteLine(new String('-', 20));
             /* Sum */
             int arraySum = 0;
             for (int i = 0; i < array.Length; i++)
@@ -29,25 +29,27 @@ namespace _01_Array
             double arrayAverage = arraySum / array.Length - 1;
 
             /* Array element is unEven */
+            Console.WriteLine("Uneven numbers are: ");
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] % 2 != 0)
                 {
-                    Console.WriteLine("uneven " + array[i]);
+                    Console.WriteLine(array[i]);
                 }
             }
 
             /* Max array element */
             int arrayMax = array.Max();
-
+        
             /* Min array element */
             int arrayMin = array.Min();
 
-            Console.WriteLine("Array is " + array);
-            Console.WriteLine("Array sum is " + arraySum);
-            Console.WriteLine("Array average is " + arrayAverage);
-            Console.WriteLine("Array max is " + arrayMax);
-            Console.WriteLine("Array min is " + arrayMin);
+            Console.WriteLine(new String('-', 20));
+            Console.WriteLine("Array elements sum is " + arraySum);
+            Console.WriteLine("Array average value  is " + arrayAverage);
+            Console.WriteLine("Array max value is " + arrayMax);
+            Console.WriteLine("Array min value is " + arrayMin);
+            Console.WriteLine(new String('-', 20));
 
             Console.ReadKey();
 
